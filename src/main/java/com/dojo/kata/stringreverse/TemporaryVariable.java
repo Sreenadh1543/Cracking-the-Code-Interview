@@ -1,6 +1,6 @@
 package com.dojo.kata.stringreverse;
 
-public class TemporayVariable {
+public class TemporaryVariable {
 
     public static void main(String[] args) {
 
