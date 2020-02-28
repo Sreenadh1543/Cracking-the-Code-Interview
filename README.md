@@ -2,4 +2,6 @@
 
 Common coding puzzles + problems in cracking the code interview book 
 
-**Puzzle 1 :  Reverse a String**
+* **1 :  Reverse a String**
+* **2 :  Palindrome**
+* **3 :  Reverse an integer**
