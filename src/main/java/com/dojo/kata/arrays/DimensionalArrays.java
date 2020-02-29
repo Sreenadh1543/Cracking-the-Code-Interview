@@ -2,7 +2,7 @@ package com.dojo.kata.arrays;
 
 import java.util.Arrays;
 
-public class DimesionalArrays {
+public class DimensionalArrays {
 
     public static void main(String[] args) {
 
