@@ -7,4 +7,4 @@ Common coding puzzles + problems in cracking the code interview book
 * **3 :  Reverse an integer**
 * **4 :  Anagram**
 * **5 :  Fizz Buzz**
-* **5 :  Splitting the array to chunks **
+* **6 :  Splitting the array to chunks**
