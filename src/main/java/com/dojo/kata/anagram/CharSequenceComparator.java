@@ -4,25 +4,39 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class CharSequence {
+public class CharSequenceComparator {
 
 
     public static void main(String[] args) {
 
-        System.out.println("Enter the String ");
+        System.out.println("Enter First String : ");
         Scanner sc = new Scanner(System.in);
-        createCharCount(sc.nextLine());
+        Map firstStringCharSequence = createCharCount(sc.nextLine());
+
+        System.out.println("Enter Second String : ");
+
+        Map secondStringCharSequence = createCharCount(sc.nextLine());
+
+        if (firstStringCharSequence.equals(secondStringCharSequence)) {
+            System.out.println("Both Strings are Anagarams");
+        } else {
+            System.out.println("Not an Anagram !");
+        }
 
 
 
     }
 
 
-    private static void createCharCount(String input) {
+    private static Map createCharCount(String input) {
+
+        System.out.println("Input String is >>" + input);
 
         Map<Character, Integer> charCounter = new HashMap<>();
         int max = 0;
         char maxChar = 0;
+
+        input = input.replaceAll("([^a-zA-Z0-9]|\\\\s)", "").toLowerCase();
 
         for (char ch : input.toCharArray()) {
 
@@ -41,5 +55,6 @@ public class CharSequence {
         System.out.println("Character >>> " + maxChar + " <<< is Used for >>> " + max + " <<< times");
         System.out.println(charCounter.toString());
 
+        return charCounter;
     }
 }
