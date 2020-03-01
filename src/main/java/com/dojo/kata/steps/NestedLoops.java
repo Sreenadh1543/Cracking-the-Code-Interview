@@ -2,7 +2,7 @@ package com.dojo.kata.steps;
 
 import java.util.Scanner;
 
-public class HashSteps {
+public class NestedLoops {
 
 
     public static void main(String[] args) {
