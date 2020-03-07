@@ -4,7 +4,9 @@ public class Arrays {
 
     private static int[] zombie = {1, 2, 3};
     private static int[] s = {};
-    private static int[][] twoDimensionalArray = new int[3][];
+    private static int[][] twoDimensionalArray = new int[][]{
+            {}, {}, {}
+    };
     private static int x = 0;
 
     static {
