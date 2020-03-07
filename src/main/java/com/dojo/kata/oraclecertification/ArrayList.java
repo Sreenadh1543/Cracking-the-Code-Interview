@@ -18,6 +18,10 @@ public class ArrayList {
 
         };
 
+        cityNames.remove("Bhutan");
+
+        System.out.println(cityNames.size());
+
 
         for (Iterator<String> cityName = cityNames.iterator(); cityName.hasNext(); ) {
 

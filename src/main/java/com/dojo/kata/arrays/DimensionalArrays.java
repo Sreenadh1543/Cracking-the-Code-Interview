@@ -39,6 +39,12 @@ public class DimensionalArrays {
                 }
         };
 
+        int[][][] cloned = threeDimensionArray.clone();
+
+        System.out.println(threeDimensionArray.equals(cloned));
+
+        System.out.println(Arrays.equals(threeDimensionArray, cloned));
+
 
         for (int[] row : threeByFourMatrix) {
 
