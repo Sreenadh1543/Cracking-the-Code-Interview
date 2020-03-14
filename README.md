@@ -41,3 +41,7 @@ Common coding puzzles + problems in cracking the code interview book
 * **Exponential -- O(2^n)**
 
    *If you add a single element to collection the processing power required doubles.
+
+
+
+**Data Structures in java**
