@@ -12,7 +12,7 @@ public class Recursion {
         System.out.println("Last element in fibonacci series is " + fib(sc.nextInt()));
     }
 
-    private static int fib(int length) {
+    private static long fib(int length) {
         if (length < 2)
             return length;
         return fib(length - 1) + fib(length - 2);
