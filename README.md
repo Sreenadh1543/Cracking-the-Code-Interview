@@ -43,5 +43,9 @@ Common coding puzzles + problems in cracking the code interview book
    *If you add a single element to collection the processing power required doubles.
 
 
+* **9 :  Fibonacci Series **
+
+  * Recursion and memoization (Dynamic programming) .
+
 
 **Data Structures in java**
