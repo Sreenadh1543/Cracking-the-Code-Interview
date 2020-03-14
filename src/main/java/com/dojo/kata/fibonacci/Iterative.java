@@ -1,9 +1,9 @@
-package com.dojo.kata.runtimecomplexity;
+package com.dojo.kata.fibonacci;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Fibonacci {
+public class Iterative {
 
     private static ArrayList<Integer> fibonacciSeries = new ArrayList<Integer>() {
         {
@@ -17,7 +17,7 @@ public class Fibonacci {
         System.out.println("Enter the nth element expected in Fibonacci Series");
         Scanner sc = new Scanner(System.in);
         fib(sc.nextInt());
-        System.out.println("Fibonacci Series" + fibonacciSeries.toString());
+        System.out.println("iterative Series" + fibonacciSeries.toString());
         System.out.println("Last element in fibonacci series is " + fibonacciSeries.get(fibonacciSeries.size() - 1));
     }
 
