@@ -52,7 +52,7 @@ Common coding puzzles + problems in cracking the code interview book
 
 * Queue
 
-    * **Concept** : First in First Out
+    * **Concept** : First in First Out ( F.I.F.O)
 
     * **Implementation :**
 
@@ -62,4 +62,12 @@ Common coding puzzles + problems in cracking the code interview book
          * Linked list indeed will be better for high queue size as the time complexity required for adding a new element is constant
                and doesn't require a complete shift.
 
+* Stack
 
+    * **Concept** : Last in First Out ( L.I.F.O)
+
+    * **Implementation :**
+
+         * New entry will be added as the last index in push and same element will be popped on the request.
+         * Easy is practical example is the Action stack CTRL+Z and CTRL+Y in most of the tools.
+         * Stack is implemented using linked list here ; how ever even an array is fine for the implementation as last element is popped always.
