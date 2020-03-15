@@ -69,5 +69,6 @@ Common coding puzzles + problems in cracking the code interview book
     * **Implementation :**
 
          * New entry will be added as the last index in push and same element will be popped on the request.
-         * Easy is practical example is the Action stack CTRL+Z and CTRL+Y in most of the tools.
+         * Simple Practical example is the Action stack CTRL+Z and CTRL+Y in most of the tools.
+         * An other example is java stack memory for execution of the program in runtime ; so now we know why stack overflows ..
          * Stack is implemented using linked list here ; how ever even an array is fine for the implementation as last element is popped always.
