@@ -40,12 +40,17 @@ Common coding puzzles + problems in cracking the code interview book
 
 * **Exponential -- O(2^n)**
 
-   *If you add a single element to collection the processing power required doubles.
+   * with a minimal increment on the input if the processing power or time taken to execute the program unprecedentedly increases
+     such is a solution with exponential time complexity.
 
 
 **9 :  Fibonacci Series**
 
   * Recursion and memoization (Dynamic programming) .
+
+  * Memoization : it's a decision making process in mathematics ; which deals with splitting the problem in to simple problems
+                and identifying the repetitive steps and reusing their part in problem solving again and again instead of computing it
+                every time.
 
 
 **Data Structures**
