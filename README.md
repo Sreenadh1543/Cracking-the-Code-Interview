@@ -52,7 +52,7 @@ Common coding puzzles + problems in cracking the code interview book
 
 * Queue
 
-    * **Concept** : First in First Outs
+    * **Concept** : First in First Out
 
     * **Implementation :**
 
