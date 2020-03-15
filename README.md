@@ -68,7 +68,7 @@ Common coding puzzles + problems in cracking the code interview book
 
     * **Implementation :**
 
-         * New entry will be added as the last index in push and same element will be popped on the request.
-         * Simple Practical example is the Action stack CTRL+Z and CTRL+Y in most of the tools.
-         * An other example is java stack memory for execution of the program in runtime ; so now we know why stack overflows ..
-         * Stack is implemented using linked list here ; how ever even an array is fine for the implementation as last element is popped always.
+         * New entry will be added as the last index with push and same element will be popped .
+         * Simple Practical example is the Action stack , CTRL+Z and CTRL+Y we use in most of the tools.
+         * Another example is java stack memory for execution of the program ; so the reason why stack overflows happens on recursions..
+         * Stack is implemented using linked list in this project ; how ever even an array is fine for the implementation as last element is popped always.
