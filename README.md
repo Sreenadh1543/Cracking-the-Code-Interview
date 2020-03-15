@@ -11,7 +11,7 @@ Common coding puzzles + problems in cracking the code interview book
 * **7 :  Printing Hashes in Steps**
 * **8 :  Matrix Spirals**
 
-# Next Step :
+# Thinking in Time complexity on the above problems :
 
 **Understanding and analysing run time complexity  for above algorithms.**
 
@@ -48,4 +48,17 @@ Common coding puzzles + problems in cracking the code interview book
   * Recursion and memoization (Dynamic programming) .
 
 
-**Data Structures in java**
+**Data Structures**
+
+* Queue
+
+    * **Idea** : First in First Out
+
+    * **Implementation :**
+             * New entry will be added in the oth index and element will be removed from the last index
+             * Array list comes handy for a queue implementation , but thinking from the runtime complexity every addition
+               at oth index require a shift on the existing array elements so can cause performance issues as size increases
+             * Linked list indeed will be better for high queue size as the time complexity required for adding a new element is constant
+               and doesn't require a complete shift.
+
+
