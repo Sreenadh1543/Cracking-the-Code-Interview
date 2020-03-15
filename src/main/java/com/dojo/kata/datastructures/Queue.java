@@ -12,38 +12,32 @@ public class Queue {
         data = new ArrayList<>();
     }
 
-    public static void main(String[] args) {
-
-        Queue queue = new Queue();
-
-        queue.add("Sree");
-        queue.add("uday");
-        queue.add("vasa");
-        queue.add("harsha");
-        queue.add("sasi");
-
-        queue.remove();
-        queue.remove();
-        queue.remove();
-        queue.remove();
-        queue.remove();
-        queue.remove();
-
+    String peek() {
+        if (data.size() > 0)
+            return data.get(data.size() - 1);
+        return null;
     }
 
-    private void add(String entry) {
+    void add(String entry) {
         data.add(0, entry);
-        System.out.println("Queue after addition" + data.toString());
     }
 
-    private void remove() {
-        String entry = "Queue is already empty";
+    boolean isNotEmpty() {
+        return data.size() > 0;
+    }
+
+    String remove() {
+        String entry = null;
         int queueSize = data.size();
         if (queueSize > 0) {
             entry = data.get(queueSize - 1);
             data.remove(queueSize - 1);
         }
-        System.out.println("Entry moved from queue is " + entry);
+        return entry;
+    }
+
+    String print() {
+        return data.toString();
     }
 
 }
