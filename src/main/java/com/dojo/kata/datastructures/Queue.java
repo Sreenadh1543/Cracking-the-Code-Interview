@@ -13,7 +13,7 @@ public class Queue {
     }
 
     String peek() {
-        if (data.size() > 0)
+        if (isNotEmpty())
             return data.get(data.size() - 1);
         return null;
     }
@@ -28,10 +28,10 @@ public class Queue {
 
     String remove() {
         String entry = null;
-        int queueSize = data.size();
-        if (queueSize > 0) {
-            entry = data.get(queueSize - 1);
-            data.remove(queueSize - 1);
+        if (isNotEmpty()) {
+            int index = data.size() - 1;
+            entry = data.get(index);
+            data.remove(index);
         }
         return entry;
     }
