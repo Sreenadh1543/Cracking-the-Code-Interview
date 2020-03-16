@@ -90,3 +90,8 @@ Common coding puzzles + problems in cracking the code interview book
          * Simple Practical example is the Action stack , CTRL+Z and CTRL+Y we use in most of the tools.
          * Another example is java stack memory for execution of the program ; so the reason why stack overflows happens on recursions..
          * Stack is implemented using linked list in this project ; how ever even an array is fine for the implementation as last element is popped always.
+
+    **Note :**
+
+         A Queue can be created with two stacks how ever it's quite unlikely to help in the real time concerning the no. of operations
+         Involved .
