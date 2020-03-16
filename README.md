@@ -90,7 +90,7 @@ Common coding puzzles + problems in cracking the code interview book
          * Another example is java stack memory for execution of the program ; so the reason why stack overflows happens on recursions..
          * Stack is implemented using linked list in this project ; how ever even an array is fine for the implementation as last element is popped always.
 
-    **Note :**
+    * **Note :**
 
          * A Queue can be created with two stacks how ever it's quite unlikely to help in the real time concerning the no. of operations
            Involved .
