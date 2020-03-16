@@ -32,32 +32,30 @@ public class Stack {
 
     }
 
-    private void push(String record) {
+    protected void push(String record) {
         data.add(record);
     }
 
-    private String pop() {
+    protected String pop() {
         String record = null;
         if (isNotEmpty()) {
             int finalRecord = data.size() - 1;
             record = data.get(finalRecord);
             data.remove(finalRecord);
         }
-        System.out.println("Record popped " + record);
         return record;
     }
 
-    private boolean isNotEmpty() {
+    protected boolean isNotEmpty() {
         return !data.isEmpty();
     }
 
-    private String peek() {
+    protected String peek() {
         String record = null;
         if (isNotEmpty()) {
             int finalRecord = data.size() - 1;
             record = data.get(finalRecord);
         }
-        System.out.println("Record to be popped " + record);
         return record;
     }
 }
