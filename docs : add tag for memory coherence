@@ -57,7 +57,7 @@ Common coding puzzles + problems in cracking the code interview book
 
 * Arrays
 
-    * **Concept** : Indexing and sequential storage in memory
+    * **Concept** : Indexing and sequential storage in memory (Memory Coherence)
 
     * **Advantages:**
        * Retrieval is quick due to the indexing
