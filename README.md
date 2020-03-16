@@ -59,12 +59,11 @@ Common coding puzzles + problems in cracking the code interview book
 
     * **Concept** : Indexing and sequential storage in memory
 
-    **Advantages:**
-
+    * **Advantages:**
        * Retrieval is quick due to the indexing
        * Random access is possible if index is known
 
-    **Disadvantages:**
+    * **Disadvantages:**
 
        * Adding or removing an element in the middle of the array is costly as a sequential shift on the array is required.
 
@@ -93,5 +92,5 @@ Common coding puzzles + problems in cracking the code interview book
 
     **Note :**
 
-         A Queue can be created with two stacks how ever it's quite unlikely to help in the real time concerning the no. of operations
-         Involved .
+         * A Queue can be created with two stacks how ever it's quite unlikely to help in the real time concerning the no. of operations
+           Involved .
