@@ -55,6 +55,19 @@ Common coding puzzles + problems in cracking the code interview book
 
 **Data Structures**
 
+* Arrays
+
+    * **Concept** : Indexing and sequential storage in memory
+
+    **Advantages:**
+
+       * Retrieval is quick due to the indexing
+       * Random access is possible if index is known
+
+    **Disadvantages:**
+
+       * Adding or removing an element in the middle of the array is costly as a sequential shift on the array is required.
+
 * Queue
 
     * **Concept** : First in First Out ( F.I.F.O)
