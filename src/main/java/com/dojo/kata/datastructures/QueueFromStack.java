@@ -15,12 +15,11 @@ public class QueueFromStack {
 
         Stack secondStack = new Stack();
 
-        for (; firstStack.isNotEmpty(); ) {
-
+        while (firstStack.isNotEmpty()) {
             secondStack.push(firstStack.pop());
         }
 
-        for (; secondStack.isNotEmpty(); ) {
+        while (secondStack.isNotEmpty()) {
             System.out.println(secondStack.pop());
         }
 
