@@ -1,7 +1,12 @@
 package com.dojo.kata.java8;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.Period;
+
+import static java.time.Period.ofYears;
+
 
 public class DataTime {
 
@@ -14,9 +19,29 @@ public class DataTime {
 
         System.out.println(date);
 
-        date = date.plus(Period.ofYears(2));
+        date = date.plus(ofYears(2));
 
         System.out.println(date);
+
+        LocalDateTime dateTime = LocalDateTime.now();
+
+        dateTime = dateTime.minusDays(12);
+
+        System.out.println(dateTime);
+
+        dateTime = dateTime.plus(Period.ofDays(12));
+
+        System.out.println(dateTime);
+
+        LocalTime time = LocalTime.now();
+
+        System.out.println(time);
+
+        time = time.minusNanos(100000000);
+
+        System.out.println(time);
+
+
     }
 
 
