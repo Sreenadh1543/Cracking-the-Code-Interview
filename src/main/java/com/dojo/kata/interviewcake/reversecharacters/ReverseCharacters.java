@@ -18,16 +18,16 @@ public class ReverseCharacters {
     }
 
 
-    private static char[] reverseCharacters(char[] charsequence){
+    private static char[] reverseCharacters(char[] charSequence){
         int lowerBound=0;
-        int upperBound=charsequence.length-1;
+        int upperBound=charSequence.length-1;
         while (lowerBound<upperBound){
-            char temp = charsequence[lowerBound];
-            charsequence[lowerBound]=charsequence[upperBound];
-            charsequence[upperBound]=temp;
+            char temp = charSequence[lowerBound];
+            charSequence[lowerBound]=charSequence[upperBound];
+            charSequence[upperBound]=temp;
             ++lowerBound;
             --upperBound;
         }
-        return charsequence;
+        return charSequence;
     }
 }
