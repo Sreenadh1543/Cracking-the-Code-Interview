@@ -23,11 +23,11 @@ public class MergeSortedArrays {
 
         int[] mergedArray = new int[firstArray.length + secondArray.length];
 
+
+
         for (int i = 0; i < mergedArray.length; i++) {
-
-            final boolean isFirstArrayNotExceeded = firstArrayPointer < firstArray.length;
-            final boolean isSecondArrayExceeded = secondArrayPointer >= secondArray.length;
-
+             boolean isFirstArrayNotExceeded = firstArrayPointer < firstArray.length;
+             boolean isSecondArrayExceeded = secondArrayPointer >= secondArray.length;
             if (isFirstArrayNotExceeded
                     && (isSecondArrayExceeded ||
                     firstArray[firstArrayPointer] < secondArray[secondArrayPointer])) {
