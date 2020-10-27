@@ -2,7 +2,7 @@ package com.dojo.kata.interviewcake.firstComeFirstServe;
 
 import java.util.Arrays;
 
-public class FirstComeFirstServeRecursion {
+public class FirstComeFirstServeRecursionWithSlicing {
 
     static int[] takeOutOrders = {17,8,24}; //{1,3,5};
     static int[] dineInOrders =  {12,19,2}; //{2,4,6};
