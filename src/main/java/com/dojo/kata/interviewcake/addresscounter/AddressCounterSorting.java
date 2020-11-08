@@ -8,7 +8,8 @@ public class AddressCounterSorting {
          What are needed for applying address counting algorithm ?
             1) The highest possible score
          1) Create an array "counts" of the size of highest possible score
-         2) Now iterate the give input array at a cost of O(n) and fill counts with the score as index and how many times score occured as value.
+         2) Now iterate the give input array at a cost of O(n) and fill counts with the
+         score as index and how many times score occurred as value.
          3) Now iterate the counts array from the bottom O(n) and fill the sorted array
              a) Create a sorted array of the size of input array
              a) For every iteration of the element  get the counts
