@@ -2,10 +2,31 @@ package com.dojo.kata.interviewcake.applestocks;
 
 public class MaxProfitCalculatorIteration {
 
-    private static int[] stockPrices = {10,7,5,8,11,9};
+    private static int[] stockPrices = {10,7,5,4,3};
 
     public static void main(String[] args) {
         System.out.println("Best deal we can get is " + maxProfit(stockPrices));
+    }
+
+    private static int maxProfit(int[] stockPrices) {
+
+        if(stockPrices.length<2)
+            throw new RuntimeException("At least two stock prices should be there to calculate profit");
+
+        int minValue = stockPrices[0];
+
+        int maxProfit= stockPrices[1]-stockPrices[0];
+
+        for (int i=1;i<stockPrices.length;i++) {
+
+            int potentialProfit = stockPrices[i]-minValue;
+
+            maxProfit = Math.max(potentialProfit,maxProfit);
+
+            minValue = Math.min(minValue,stockPrices[i]);
+        }
+
+        return maxProfit;
     }
 
     /*
@@ -25,7 +46,7 @@ public class MaxProfitCalculatorIteration {
 
               return max element - min element
 
-*/
+
     private static int maxProfit(int[] stockPrices) {
         if(stockPrices.length<2)
             throw new RuntimeException("Stock Prices should not be less than length of two");
@@ -44,6 +65,8 @@ public class MaxProfitCalculatorIteration {
         }
         return Math.abs(maxStockPrice - minStockPrice);
     }
+
+    */
 
     /*
     Declare a maximum profit field as integer and initialize with zero
