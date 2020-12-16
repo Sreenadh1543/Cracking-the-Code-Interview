@@ -49,11 +49,8 @@ public class Ploymorphism {
         boolean isPrime(int numberToCheck) {
             if(numberToCheck==1)
                 return false;
-            int remainder;
-            for (int i = 2; i <= numberToCheck / 2; i++) {
-                remainder = numberToCheck % i;
-                //if remainder is 0 than numberToCheckber is not prime and break loop. Elese continue loop
-                if (remainder == 0) {
+            for (int i = 2; i < numberToCheck ; i++) {
+                if (numberToCheck % i == 0) {
                     return false;
                 }
             }
