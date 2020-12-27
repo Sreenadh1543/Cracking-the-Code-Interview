@@ -12,7 +12,7 @@ public class Hashset{
 
    private List<Team> teams = new ArrayList<>();
 
-    static class Team{
+     class Team{
 
         public int teamName;
 
@@ -105,7 +105,7 @@ public class Hashset{
     }
 
 
-    private static String[] splitTeamsByHash(String squads){
+    private  String[] splitTeamsByHash(String squads){
             return squads.split("#");
     }
 }
